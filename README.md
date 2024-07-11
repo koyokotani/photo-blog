@@ -13,6 +13,11 @@ docker-compose up -d
 http://localhost:3000
 ```
 
+### 必要なパッケージインストール
+```
+docker-compose exec app yarn add <package name...>
+```
+
 ## デプロイ
 1. アプリケーションのDockerコンテナに接続する
 ```
